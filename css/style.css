@@ -1,48 +1,4 @@
-/* підключення шрифтів */
-@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
-@font-face {
-  font-family: 'scriptorama';
-  src: url(../fonts/scriptorama.eot);
-  src: url(../fonts/scriptorama.eot?#iefix) format('embedded-opentype'),
-       url(../fonts/scriptorama.otf) format('otf'),
-       url(../fonts/scriptorama.svg#scriptorama) format('svg'),
-       url(../fonts/scriptorama.ttf) format('truetype'),
-       url(../fonts/scriptorama.woff) format('woff'),
-       url(../fonts/scriptorama.woff2) format('woff2');
-}
-/* font-family: 'Montserrat', sans-serif; */
-/* font-family: 'Edu NSW ACT Foundation', cursive; */
-
-/* скидання властивостей */
-* , *::after, *::before {
-  margin: 0;
-  padding: 0;
-  border: none;
-  box-sizing: border-box;
-}
-a {
-  text-decoration: none;
-  color: inherit;
-}
-ul, ol, li{
-  list-style: none;
-}
-img {
-  object-fit: contain;
-  vertical-align: top;
-}
-h1,h2,h3,h4,h5,h6{
-  text-align: center;
-  font-weight: inherit;
-  font-size: inherit;
-}
-html,body{
-  height: 100%;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-}
-/* --------------------------------------------------- */
+@import url('./main.css');
 
 .container{
   max-height: 100%;
