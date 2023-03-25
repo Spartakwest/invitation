@@ -104,3 +104,30 @@
   display: block;
   object-fit: cover;
 }
+/* контейнер деталей */
+.details {
+
+}
+.details--card {
+
+}
+.details--block {
+
+}
+.details--header {
+  font-weight: bold;
+  font-size: 1.875rem;
+}
+.details--description {
+font-size: 1.5rem;
+}
+.details--start {
+  font-weight: bold;
+font-size: 1.5rem;
+}
+.details--button {
+  font-size: 1.5rem;
+  display: block;
+  border: 1px solid black;
+  width: 15rem;
+}
