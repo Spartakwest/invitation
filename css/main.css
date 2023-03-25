@@ -2,9 +2,11 @@
 /* підключення шрифтів google */
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
 /* неймінг гугл шрифтів */
 /* font-family: 'Montserrat', sans-serif; */
 /* font-family: 'Edu NSW ACT Foundation', cursive; */
+/* font-family: 'Forum', cursive; */
 /* підключення локального шрифту */
 @font-face {
   font-family: 'scriptorama';
@@ -15,6 +17,16 @@
        url(../fonts/scriptorama.ttf) format('truetype'),
        url(../fonts/scriptorama.woff) format('woff'),
        url(../fonts/scriptorama.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'aire';
+  src: url(../fonts/Aire.eot);
+  src: url(../fonts/Aire.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/Aire.otf) format('otf'),
+       url(../fonts/Aire.svg#Aire%20Bold%20Pro) format('svg'),
+       url(../fonts/Aire.ttf) format('truetype'),
+       url(../fonts/Aire.woff) format('woff'),
+       url(../fonts/Aire.woff2) format('woff2');
 }
 /* ----------------------------------------------------------------------- */
 

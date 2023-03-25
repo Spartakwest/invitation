@@ -174,11 +174,53 @@
   height: 110%;
 }
 
-/* блок таймінгу */
-.timming--image{
-  margin: 0 auto 50px;
-  width: 100px;
+/* контейнер таймера*/
+.timer--overlay{
+  background-image: url('../image/timer-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
 }
-.timming--image img{
+.timer--fon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(98, 98, 98, .5);
+}
+.timer--content{
+  padding: 54px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer--dispalay{
   width: 100%;
+  font-family: "Aire Bold Pro";
+  font-size: 50px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  opacity: .9;
+}
+label {
+  color: white;
+  opacity: .9;
+  font-size: 20px;
+  font-family: 'Forum';
+}
+.timer--item{
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer--text{
+  opacity: .9;
+  font-size: 28px;
+  color: #ffffff;
+  font-family: 'scriptorama';
 }
