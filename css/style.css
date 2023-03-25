@@ -1,6 +1,13 @@
 /* імпорт головного файлу */
 @import url('./main.css');
 
+/* основні кольори
+#7c5f3e - світло-коричневий
+#352716 - темно-коричневий
+#17110d - темний
+#d2bfbf - рожевий
+*/
+
 /* головний контейнер */
 .container{
   margin: 0 auto;
@@ -104,15 +111,28 @@
   display: block;
   object-fit: cover;
 }
+
 /* контейнер деталей */
 .details {
-
+  color:#352716;
 }
 .details--card {
-
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: #7c5f3e;
+}
+.details--image {
+  padding: 5px 0 0 0;
+  width: 17rem;
+}
+.details--image img{
+  filter: contrast(10);
+  width:100%;
 }
 .details--block {
-
+  padding: 15px;
 }
 .details--header {
   font-weight: bold;
