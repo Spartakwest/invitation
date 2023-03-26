@@ -161,6 +161,7 @@
   margin: 0 0 10px 0;
 }
 .details--button {
+  z-index: 1;
   position: relative;
   margin: 0 auto;
   color: #17110d;
@@ -178,6 +179,7 @@
   transform: scale(0.95);
 }
 .details--button::before{
+  z-index: 0;
   content: "";
   top: 7px;
   left: 7px;
