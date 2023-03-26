@@ -347,3 +347,39 @@ label {
   color: #ffffff;
   font-family: 'scriptorama';
 }
+
+/* -------------------------------------- */
+
+/* контейнер запитань */
+.questions--card{
+  padding: 90px 0 ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.questions--image{
+  width: 5rem;
+  margin-bottom: 10px;
+}
+.questions--image img{
+  width: 100%;
+}
+.questions--text {
+  font-size: 18.2px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.details--button.questions--button{
+  background-color: white;
+  margin-bottom: 30px;
+}
+.telegram--content{
+  display: flex;
+  align-items: center;
+}
+.telegram--image{
+  width: 25px;
+} 
+.telegram--image img{
+  width: 100%;
+}
