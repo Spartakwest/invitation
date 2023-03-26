@@ -14,6 +14,9 @@
   max-height: 100%;
   max-width: 480px;
 }
+
+/* ------------------------------------------------------------ */
+
 /* блок хедер */
 .header--card{
   display: flex;
@@ -51,6 +54,8 @@
   color: #ffffff;
   order:2;
 }
+
+/* ---------------------------------------------------- */
 
 /* блок інфо */
 .info{
@@ -105,12 +110,17 @@
   text-align: center;
   font-size: 1.5rem;
 }
+
+/* ---------------------------------------------------- */
+
 /* контейнер фото 1 */
 .photo_1-img img{
   width: 100%;
   display: block;
   object-fit: cover;
 }
+
+/* ---------------------------------------------------- */
 
 /* контейнер деталей */
 .details {
@@ -164,6 +174,9 @@
 .btn {
   margin: 10px;
 }
+.details--button:active {
+  transform: scale(0.95);
+}
 .details--button::before{
   content: "";
   top: 7px;
@@ -174,13 +187,17 @@
   height: 110%;
 }
 
+/* --------------------------------------------------- */
+
 /* контейнер таймера*/
+/* фон для таймера */
 .timer--overlay{
   background-image: url('../image/timer-image.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
+/* розмивка для фону */
 .timer--fon {
   position: absolute;
   top: 0;
@@ -189,6 +206,7 @@
   bottom: 0;
   background-color: rgba(98, 98, 98, .5);
 }
+/* контейнер для таймера та тексту */
 .timer--content{
   padding: 54px 0;
   display: flex;
@@ -196,6 +214,7 @@
   justify-content: center;
   align-items: center;
 }
+/* контейнер для таймера */
 .timer--dispalay{
   width: 100%;
   font-family: "aire";
@@ -205,12 +224,7 @@
   color: white;
   opacity: .9;
 }
-label {
-  color: white;
-  opacity: .9;
-  font-size: 20px;
-  font-family: 'Forum', cursive;;
-}
+/* карточка одного цифрового показника */
 .timer--item{
   flex: 1 1 auto;
   display: flex;
@@ -218,6 +232,14 @@ label {
   justify-content: center;
   align-items: center;
 }
+/* підпис до цифр */
+label {
+  color: white;
+  opacity: .9;
+  font-size: 20px;
+  font-family: 'Forum', cursive;;
+}
+/* текст під таймером */
 .timer--text{
   opacity: .9;
   font-size: 28px;
