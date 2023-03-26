@@ -191,6 +191,105 @@
 
 /* --------------------------------------------------- */
 
+/* контейнер історії */
+.history{
+  padding: 90px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* контейнер картинки блоку історія*/
+.history--image {
+  width: 5rem;
+  margin: 0 auto 1.5rem;
+}
+/* картинка на початку блоку історія */
+.history--image img{
+  width: 100%;
+}
+ /* заголовок історії */
+.history--header{
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 0 0 120px 0;
+}
+/* контейнер списку блоку історія */
+.history--list{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+/* лінія посередині списку */
+.history--list::before{
+  content: "";
+  top: 0;
+  left: 50%;
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  background-color: black;
+}
+/* властивості для непарних елементів списку */
+.history--item:nth-child(odd){
+  margin-left: 50%;
+  padding-left: 2.8rem;
+}
+/* властивості для парних елементів списку */
+.history--item:nth-child(2n){
+  padding-right: 3.4rem;
+  margin-left: 0;
+}
+/* властивості для всіх елементів списку */
+.history--item {
+  font-size: 16px;
+  position: relative;
+  width: 50%;
+  margin-bottom: 5rem;
+  transform: translateY(-50%);
+}
+/* лінія від елементу списку до середньої лінії */
+.history--item::before {
+  content: "";
+  top: 50%;
+  left: 0;
+  position: absolute;
+  height: 1px;
+  width: 3rem;
+  background-color: black;
+}
+/* властивості лінії для парних елементів до середньої лінії */
+.history--item:nth-child(2n)::before{
+  right: 0;
+  left: auto;
+}
+/* властивості для контейнера елемента */
+.history--content{
+  display: flex;
+  align-items: center;
+}
+/* властивості контейнера парних елементів */
+.history--item:nth-child(2n) .history--content{
+  text-align: right;
+  flex-direction: row-reverse;
+}
+/* властивості для іконки сердечко списку елементів */
+.history--icon{
+  width: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+/* властивості для іконки сердчко непарних елементів */
+.history--item:nth-child(odd) .history--icon{
+  margin-right: .5rem;
+}
+/* властивості для іконки сердчко непарних елементів */
+.history--item:nth-child(2n) .history--icon{
+  margin-left: .5rem;
+}
+/* --------------------------------------------------- */
+
 /* контейнер таймера*/
 /* фон для таймера */
 .timer--overlay{
