@@ -366,13 +366,16 @@ label {
   width: 100%;
 }
 .questions--text {
-  font-size: 1.1375rem;
+  font-size: 1.3rem;
   text-align: center;
-  margin-bottom: 3.125rem;
+  margin-bottom: 2rem;
 }
 .details--button.questions--button{
   background-color: white;
-  margin-bottom: 1.875rem;
+  margin-bottom: 4.875rem;
+}
+.details--button.questions--button:last-child{
+  margin-bottom: 0;
 }
 
 /* ----------------------------------- */
