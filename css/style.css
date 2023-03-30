@@ -234,7 +234,7 @@
 /* властивості для непарних елементів списку */
 .history--item:nth-child(odd){
   margin-left: 50%;
-  padding-left: 2.8rem;
+  padding-left: 2.9rem;
 }
 /* властивості для парних елементів списку */
 .history--item:nth-child(2n){
