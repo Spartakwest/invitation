@@ -28,7 +28,7 @@ let drawingBtn = document.querySelector('.drawing-btn');
 let widdingBtn = document.querySelector('.widding-btn');
 let telegram = document.querySelector('.telegram-btn');
 let banquetBtn = document.querySelector('.banquet');
-let questionBtn = document.querySelector('.questionBtn')
+let questionBtn = document.querySelector('.questionsBtn')
 // функції деталей
 drawingBtn.addEventListener('click', function () {
   window.open("https://goo.gl/maps/4MaiX3zY9ejhJwjn8");
@@ -40,7 +40,7 @@ telegram.addEventListener('click', function () {
   window.open("https://t.me/+8Oye6XAb4-wxYmIy");
 });
 banquetBtn.addEventListener('click', function () {
-  window.open("https://g.co/kgs/gSeFEk");
+  window.open("https://goo.gl/maps/iPjYpiTcjZLnmptQ6");
 });
 questionBtn.addEventListener('click', function () {
   window.open("https://forms.gle/Y4phDJkBiHZkYBe48");
