@@ -65,7 +65,7 @@
 }
 .info::before{
   content: '';
-  background-image: url('../image/fon.jpg');
+  background-image: url('../image/fon.webp');
   background-size: cover;
   background-repeat: repeat;
   opacity: 0.18;
