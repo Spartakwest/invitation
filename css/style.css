@@ -7,7 +7,6 @@
 #17110d - темний
 #d2bfbf - рожевий
 */
-
 /* головний контейнер */
 .container{
   margin: 0 auto;
@@ -324,7 +323,10 @@
   display: flex;
   justify-content: space-around;
   color: white;
-  opacity: .9;
+  opacity: .9;}
+/* цифри на таймері */
+.digit {
+  font-size: 3.125rem;
 }
 /* карточка одного цифрового показника */
 .timer--item{
