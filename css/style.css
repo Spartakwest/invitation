@@ -294,7 +294,7 @@
 /* контейнер таймера*/
 /* фон для таймера */
 .timer--overlay{
-  background-image: url('../image/timer-image.jpg');
+  background-image: url('../image/timer-image.webp');
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
