@@ -26,10 +26,14 @@ setInterval(function () {
 // визначення кнопок деталей
 let drawingBtn = document.querySelector('.drawing-btn');
 let widdingBtn = document.querySelector('.widding-btn');
+let telegram = document.querySelector('.telegram-btn')
 // функції деталей
 drawingBtn.addEventListener('click', function () {
   window.open("https://goo.gl/maps/4MaiX3zY9ejhJwjn8");
 })
 widdingBtn.addEventListener('click', function () {
   window.open("https://goo.gl/maps/LfTLfXuKWY9sv5Mr6");
+})
+telegram.addEventListener('click', function () {
+  window.open("https://t.me/+8Oye6XAb4-wxYmIy");
 })
