@@ -84,17 +84,18 @@
 }
 .info--header{
   font-weight: bold;
-  font-weight: bold;
   display: block;
   font-size: 1.8rem;
   /* margin-bottom: 0.1rem; */
 }
 .info--guest{
+  font-weight: bold;
   position: relative;
   font-size: 2.5rem;
   font-family: 'scriptorama';
   margin-bottom: 0.5rem;
 }
+
 .info--subheader{
   text-align: center;
   display: block;
