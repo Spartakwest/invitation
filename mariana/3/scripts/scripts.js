@@ -4,6 +4,7 @@ let days = document.querySelector('.timer--days');
 let hours = document.querySelector('.timer--hours');
 let minutes = document.querySelector('.timer--minutes');
 let secundes = document.querySelector('.timer--secundes');
+let timerText = document.querySelector('.timer--text');
 // визначаємо сьогоднішню дату та дату весілля
 let now = new Date();
 let widding = new Date(2023, 4, 13, 14);
@@ -13,14 +14,28 @@ let daysdiff = 60 * 60 * 24;
 let hoursdiff = 60 * 60;
 let minutesdiff = 60;
 // визначаємо таймер оновлення 
-setInterval(function () {
-  days.innerHTML = Math.floor(diff / daysdiff);
-  hours.innerHTML = Math.floor((diff % daysdiff) / hoursdiff);
-  minutes.innerHTML = Math.floor(((diff % daysdiff) % hoursdiff) / minutesdiff);
-  secundes.innerHTML = Math.floor((((diff % daysdiff) % hoursdiff) % minutesdiff));
-  now = new Date();
-  diff = (widding - now) / 1000;
-}, 1000);
+if (diff >= 0) {
+  setInterval(function () {
+    days.innerHTML = Math.floor(diff / daysdiff);
+    hours.innerHTML = Math.floor((diff % daysdiff) / hoursdiff);
+    minutes.innerHTML = Math.floor(((diff % daysdiff) % hoursdiff) / minutesdiff);
+    secundes.innerHTML = Math.floor((((diff % daysdiff) % hoursdiff) % minutesdiff));
+    now = new Date();
+    diff = (widding - now) / 1000;
+  }, 1000);
+} else {
+  let diff2 = (now - widding) / 1000;
+  setInterval(function () {
+    days.innerHTML = Math.floor(diff2 / daysdiff);
+    hours.innerHTML = Math.floor((diff2 % daysdiff) / hoursdiff);
+    minutes.innerHTML = Math.floor(((diff2 % daysdiff) % hoursdiff) / minutesdiff);
+    secundes.innerHTML = Math.floor((((diff2 % daysdiff) % hoursdiff) % minutesdiff));
+    now = new Date();
+    diff2 = (now - widding) / 1000;
+  }, 1000);
+  timerText.innerHTML = 'ми вже одружені)'
+}
+
 
 
 // визначення кнопок деталей
