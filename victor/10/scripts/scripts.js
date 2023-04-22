@@ -45,9 +45,6 @@ let telegram = document.querySelector('.telegram-btn');
 let banquetBtn = document.querySelector('.banquet');
 let questionBtn = document.querySelector('.questionsBtn')
 // функції деталей
-drawingBtn.addEventListener('click', function () {
-  window.open("https://goo.gl/maps/4MaiX3zY9ejhJwjn8");
-});
 widdingBtn.addEventListener('click', function () {
   window.open("https://goo.gl/maps/LfTLfXuKWY9sv5Mr6");
 });
