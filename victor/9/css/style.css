@@ -90,10 +90,13 @@
   /* margin-bottom: 0.1rem; */
 }
 .info--guest{
+  margin: 2rem 0 3rem;
+  text-align: center;
+  line-height: 3rem;
+  font-weight: bold;
   position: relative;
   font-size: 2.5rem;
   font-family: 'scriptorama';
-  margin-bottom: 0.5rem;
 }
 .info--subheader{
   text-align: center;
